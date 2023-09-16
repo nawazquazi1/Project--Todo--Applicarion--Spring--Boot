@@ -13,6 +13,9 @@ import java.time.LocalDate;
 //JPA
 // Bean -> Database Table
 
+/**
+ * @author nawaz
+ */
 @Entity
 public class Todo {
 

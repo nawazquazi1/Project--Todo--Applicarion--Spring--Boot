@@ -16,14 +16,12 @@ import java.util.function.Function;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
+/**
+ * @author nawaz
+ */
 @Configuration
 public class SpringSecurityConfiguration {
-	//LDAP or Database
-	//In Memory 
-	
-	//InMemoryUserDetailsManager
-	//InMemoryUserDetailsManager(UserDetails... users)
-	
+
 	@Bean
 	public InMemoryUserDetailsManager createUserDetailsManager() {
 		
